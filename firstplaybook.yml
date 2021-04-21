@@ -3,5 +3,5 @@
   become: yes
   tasks:
 
-  name: ping all devices
-  ping:
+  - name: ping all devices
+    ping:
