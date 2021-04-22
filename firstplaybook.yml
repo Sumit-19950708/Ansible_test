@@ -17,6 +17,7 @@
   - name: i want to install webserver on ubuntu node
     apt:
       name: apache2
-      state: present
+      update_cache: yes 
+      state: latest
 
 
