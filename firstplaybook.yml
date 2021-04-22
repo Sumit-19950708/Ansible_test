@@ -5,7 +5,7 @@
   - name: ping all devices
     ping:
 
-  - name: install webserver on ansible node
+  - name: install webserver on ubuntu node
     apt:
       name: apache2
       state: present
