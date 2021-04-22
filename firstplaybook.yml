@@ -19,5 +19,5 @@
     apt:
       name: apache2
       update_cache: yes 
-      state: latest
+      state: absent
     when: ansible_os_family == "Debian"
