@@ -1,12 +1,11 @@
 ---
 - hosts: all
-  become: yes
   tasks:
-
   - name: ping all devices
     ping:
 
   - name: install webserver on ubuntu node
     apt:
       name: apache2
-      update_cache: yes
+      state: present
+
