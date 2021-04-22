@@ -9,9 +9,9 @@
       name: git
       state: present
 
-  - name: i want to install tree on ubuntu node
+  - name: i want to install wget on ubuntu node
     apt:
-      name: tree
+      name: wgwt
       state: present
 
   - name: i want to install webserver on ubuntu node
