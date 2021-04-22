@@ -20,4 +20,4 @@
       name: apache2
       update_cache: yes 
       state: latest
-      when: ansible_os_family == "Debian"
+    when: ansible_os_family == "Debian"
