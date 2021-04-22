@@ -12,7 +12,7 @@
   - name: i want to install wget on ubuntu node
     apt:
       name: wget
-      state: present
+      state: absent
 
   - name: i want to install webserver on ubuntu node
     apt:
