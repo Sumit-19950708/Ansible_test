@@ -11,7 +11,7 @@
 
   - name: i want to install wget on ubuntu node
     apt:
-      name: wgwt
+      name: wget
       state: present
 
   - name: i want to install webserver on ubuntu node
