@@ -7,5 +7,5 @@
 
   - name: install webserver on ubuntu node
     apt:
-      name: update
-      state: present
+      name: apache2
+      update_cache: yes
