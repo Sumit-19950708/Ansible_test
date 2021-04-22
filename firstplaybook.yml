@@ -1,11 +1,12 @@
 ---
 - hosts: all
+  become: yes
   tasks:
   - name: ping all devices
     ping:
 
-  - name: install webserver on ubuntu node
+  - name: i want to install git on ubuntu node
     apt:
-      name: apache2
+      name: git
       state: present
 
