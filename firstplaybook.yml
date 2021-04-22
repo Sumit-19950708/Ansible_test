@@ -5,7 +5,8 @@
   - name: ping all devices
     ping:
 
-  - name: install webserver on ubuntu node
-    apt:
-      name: apache2
-      update_cache: yes
+  - name: Update repositories cache and install "foo" package
+  apt:
+    name: foo
+    update_cache: yes
+    
