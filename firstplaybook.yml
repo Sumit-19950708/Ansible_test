@@ -13,11 +13,11 @@
   - name: i want to install wget on ubuntu node
     apt:
       name: "{{mywgetvar}}"
-      state: absent
+      state: present
 
   - name: i want to install webserver on ubuntu node
     apt:
       name: "{{myapachevar}}"
       update_cache: yes 
-      state: absent
+      state: present
     when: ansible_os_family == "Debian"
