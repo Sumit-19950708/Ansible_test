@@ -1,5 +1,5 @@
 ---
-key:value
-mywgetvar = wget
-mygitvar = git
-myapachevar = apache2
+key: value
+mywgetvar: wget
+mygitvar: git
+myapachevar: apache2
