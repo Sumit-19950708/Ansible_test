@@ -1,0 +1,5 @@
+[webappserver : vars]
+
+mywgetvar = wget
+mygitvar = git
+myapachevar = apache2
