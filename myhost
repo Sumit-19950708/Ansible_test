@@ -1,1 +1,7 @@
+
+[webappserver]
 172.31.90.143
+
+[appserver]
+10.10.10.0
+
