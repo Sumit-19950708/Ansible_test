@@ -6,4 +6,10 @@
     apt:
       name: "{{myapachevar}}"
       state: present
+    
+  - name: install java
+    apt:
+      name: "{{myjavaapp}}"
+      state: present
 
+      
