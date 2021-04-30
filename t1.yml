@@ -4,6 +4,6 @@
   tasks:
   - name: install apache2
     apt:
-      name: apache2
+      name: "{{myapachevar}}"
       state: present
 
