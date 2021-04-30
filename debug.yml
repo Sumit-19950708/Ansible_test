@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+
+  - name: host name of ansible node 
+    command: hostname -f
+    register: myresult
+
+  - name: display result
+    debug:
+      msg: "{{myresult}}"
+
+      
