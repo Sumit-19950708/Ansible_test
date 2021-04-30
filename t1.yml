@@ -9,6 +9,6 @@
     
   - name: install java
     apt:
-      name: openjdk-8-jre
+      name: "{{myjavaappnew}}"
       state: present
 

@@ -4,4 +4,4 @@ mywgetvar: wget
 mygitvar: git
 myapachevar: apache2
 
-myjavaapp: 
+myjavaappnew: openjdk-8-jre
