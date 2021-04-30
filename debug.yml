@@ -11,4 +11,11 @@
     debug:
       msg: "{{myresult}}"
 
-      
+  - name: IP addr of ansible node 
+    command: ifconfig
+    register: myresult2
+
+  - name: display result
+    debug:
+      msg: "{{myresult2}}"
+
