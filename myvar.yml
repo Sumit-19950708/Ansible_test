@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: vars
+  vars:
+    var1: wget
+    var2: tree
+    var3: apache2
+
+  tasks:
+  - name: display var1
+    debug:
+      msg: "{{var1}}"
+
