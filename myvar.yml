@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become: vars
+  become: yes
   vars:
     var1: wget
     var2: tree
@@ -10,4 +10,12 @@
   - name: display var1
     debug:
       msg: "{{var1}}"
+
+  - name: display var2
+    debug:
+      msg: "{{var2}}"
+
+  - name: display var3
+    debug:
+      msg: "{{var3}}"
 
