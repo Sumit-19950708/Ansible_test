@@ -3,3 +3,5 @@ key: value
 mywgetvar: wget
 mygitvar: git
 myapachevar: apache2
+
+myjavaapp: 
