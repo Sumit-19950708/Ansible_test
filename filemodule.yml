@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: webappserver
   become: yes
   tasks:
   - name: need to create file
