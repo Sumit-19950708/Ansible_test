@@ -19,3 +19,13 @@
     debug:
       msg: "{{myresult2}}"
 
+  - name: install tree
+    apt: 
+      name: tree
+    when: myresult.stderr ==""
+
+  - name: install git
+    apt: 
+      name: git
+    when: myresult.stderr !=""
+
