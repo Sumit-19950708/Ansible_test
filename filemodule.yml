@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: need to create file
+    file:
+      path: /home/ubuntu/t1.txt
+      state: touch
+
+  - name: install apache2
+    apt:
+      name: apache2
+      state: present
+            
