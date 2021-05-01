@@ -6,12 +6,12 @@
     file:
       path: /home/ubuntu/t1.txt
       state: touch
-
+    
   - name: install apache2
     apt:
       name: apache2
       state: present
-
+  - include: file.yml
   - name: first template write
     template:
       src: myjinjafile.j2
