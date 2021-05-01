@@ -6,7 +6,8 @@
     apt:
       name: "{{ item }}"
       state: absent
-
+    ignore_errors: yes
+    
     loop:
       - git
       - wget
