@@ -1,0 +1,15 @@
+---
+- name: install git
+  apt:
+    name: git
+    state: present
+
+- name: create new files
+  file:
+    path: /home/ubuntu/t2.txt
+    state: touch
+
+- name: create new directory
+  file:
+    path: /home/ubuntu/don
+    state: directory
