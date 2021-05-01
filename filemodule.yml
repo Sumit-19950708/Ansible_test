@@ -12,4 +12,8 @@
       name: apache2
       state: present
 
-            
+  - name: first template write
+    template:
+      src: myjinjafile.j2
+      desc: /var/www/html/index.html
+      
