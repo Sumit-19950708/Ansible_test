@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: lh
   become: yes
   tasks:
   - name: create ansible nodes
